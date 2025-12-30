@@ -1,0 +1,12 @@
+# Template for local development
+# Copy this to application-dev.properties and fill in your values
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/code_review_db
+spring.datasource.username=postgres
+spring.datasource.password=YOUR_POSTGRES_PASSWORD_HERE
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.jpa.hibernate.ddl-auto=update
+
+gemini.api.key=GET_YOUR_KEY_FROM_https://aistudio.google.com/
+jwt.secret=generate_random_string_here
